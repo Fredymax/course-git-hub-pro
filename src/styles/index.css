@@ -55,7 +55,7 @@ section:nth-child(odd) h1 {
 }
 
 section .title::before {
-  content: counter(counter-title);
+  content: counter(counter-title) ".-";
   font-size: 3rem;
   padding-inline-end: 10px;
 }
