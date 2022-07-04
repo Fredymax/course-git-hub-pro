@@ -1,6 +1,10 @@
 .container-header {
-  background-color: hsl(0, 0%, 100%);
+  inline-size: 100%;
   block-size: 70px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 0 5px hsla(0, 0%, 0%, 0.169);
+  position: fixed;
+  inset-block-start: 0;
 }
 
 .header {
@@ -20,10 +24,10 @@
 .nav-link {
   text-decoration: none;
   font-weight: 600;
-  color: #2e81b9;
+  color: hsl(204, 60%, 45%);
   transition: color 0.2s linear;
 }
 
 .nav-link:hover {
-  color: #47aaec;
+  color: hsl(204, 81%, 60%);
 }

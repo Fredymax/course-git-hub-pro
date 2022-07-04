@@ -25,3 +25,45 @@ body {
     max-inline-size: 920px;
   }
 }
+
+@media screen and (width: 1920px) {
+  .wrapper {
+    max-inline-size: 1400px;
+  }
+}
+
+.title {
+  color: hsl(204, 60%, 45%);
+}
+
+.container {
+  block-size: calc(100vh - 70px);
+  inline-size: 100%;
+}
+
+main {
+  margin-block-start: 70px;
+}
+
+section:nth-child(odd) {
+  background-color: cornflowerblue;
+}
+
+section:nth-child(odd) h1 {
+  color: #fff !important;
+}
+
+section .title::before {
+  content: counter(counter-title);
+  font-size: 3rem;
+  padding-inline-end: 10px;
+}
+
+section {
+  counter-increment: counter-title;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 70px;
+}
