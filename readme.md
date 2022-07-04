@@ -1,3 +1,3 @@
-<p style="text-align: center">
-  # Course of Git
-</p>
+<h1 style="text-align: center">
+  Course of Git
+</h1>
