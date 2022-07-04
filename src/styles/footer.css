@@ -1,0 +1,11 @@
+.footer {
+  inline-size: 100%;
+  block-size: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: hsl(204, 81%, 60%);
+}
+
+.footer p {
+  color: hsl(0, 0%, 100%);
+}
